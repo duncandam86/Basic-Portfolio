@@ -4,95 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" type="text/css" href="assests/css/style.css">   
     <title>Duncan Dam</title>
 </head>
-<body background="/Users/duncandam/Desktop/Bootcamp/Basic-Portfolio/assests/images/full-bloom.png">
+<!--Background image-->
+<body background="../Basic-Portfolio/assests/images/full-bloom.png">
+<!--Top heading-->
     <h1>
-            <div class="Duncan_Dam">Duncan Dam</div>
-            <div class="Contact">Contact</div>
-            <div class="Portfolio">Portfolio |</div>
-            <div class="About">About |</div>
-    </h1> 
+        <div class="Duncan_Dam">Duncan Dam</div>
+        <div class="Contact">
+            <a href="http://northwestern.edu" target="_blank">Contact</a>
+        </div>
+     <hr class="vl">
+        <div class="Portfolio">
+            <a href="http://google.com" target="_blank">Portfolio</a>
+        </div> 
+    <hr class="vl">
+        <div class="Portfolio">
+            <a href="https://scholar.google.com/citations?user=9uJRvrcAAAAJ&hl=en" target="_blank">About</a>
+        </div>
+    </h1>
     <br>
+<!--Second heading About me-->
     <h2>
-        <div class="About_me">About Me</div>
-
-        <br>
-        <hr>
-        <img class="duncan_image" src="/Users/duncandam/Desktop/Bootcamp/Basic-Portfolio/assests/images/Duncan_D.jpg" 
+        <div id="About_me">About Me</div>
+    <br>
+    <br>
+    <hr size="2" color="lightgrey">
+        <img id="duncan_image" src="../Basic-Portfolio/assests/images/Duncan_D.jpg" 
              width="150" height="200">
-        <p>Fuck Trump</p>
+        <p>I was born in the USSR when my parents were pursuing their education there. 
+            We then moved back to our home country, Vietnam, when I was less than 6 months old.
+            I grew up in Vietnam until I was 8 years old 
+        </p>
         <p>Fuck 1%</p>
 </body>
-
-<style>
-   h1{
-       background-color: white;
-       width: 1250px;
-       height: 80px;
-       margin: auto 
-   }
-  .Duncan_Dam {
-       background-color: teal;
-       width: 200px;
-       height: 55px;
-       display: inline-block;
-       padding-top: 25px;
-       margin-left: 145px;
-       color: white;
-       text-align: center; 
-       font-size: 30px;       
-   }
-  .About {
-       float: right;
-       display: inline-block;
-       color: grey;
-       text-align: center;
-       padding: 40px 20px;
-       font-size: 22px;
-    }
-  .Portfolio {
-       float: right;
-       display: inline-block;
-       color: grey;
-       text-align: center;
-       padding: 40px 10px;
-       font-size: 22px;
-    }
-  .Contact {
-       float: right;
-       display: inline-block;
-       color: grey;
-       text-align: center;
-       padding: 40px 20px;
-       font-size: 22px;
-       margin-right: 145px;
-    }
-  h2 {
-       background-color: white;
-       width: 960px;
-       height: 800px;
-       margin: auto 
-       }
-
-  .About_me {
-       width: 160px;
-       height: 30px;
-       display: inline-block;
-       padding-top: 10px;
-       color:  teal;
-       text-align: center; 
-       font-size: 30px; 
-     }
-  hr {
-      width: 920px;
-      color: lightgrey;
-      border-width: 2px;
-      border-color: lightslategrey
-  }
-  .duncan_image
-  {
-      margin-left: 20px;
-  }
-</style>
 </html>

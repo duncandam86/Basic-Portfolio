@@ -1,0 +1,91 @@
+/*style for index.html*/
+/*heading color background */
+.background{
+    opacity: 0.1;
+}
+h1{
+    background-color: #ffffff;
+    width: 1275px;
+    height: 80px;
+    margin-top: -10px;
+    border-bottom: solid lightgray;  
+    }
+
+/*style for Duncan Dam*/
+.Duncan_Dam {
+    background-color: teal;
+    width: 200px;
+    height: 55px;
+    float: left;
+    padding: 25px 10px 0 10px;
+    margin-left: 155px;
+    color: white;
+    text-align: center; 
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;       
+   }
+/*creating vertical lines*/
+.vl{
+    float:right;
+    border: none;
+    border-right: 2px solid lightgrey;
+    padding: 10px 0 10px 0;
+    width: 5px;
+    margin-top: 28px;
+    }  
+/*style for About and Portfolio*/
+.Portfolio {
+    float: right;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+a {
+    text-decoration: none;
+    color: grey
+}
+/*style for Contact*/
+.Contact {
+    float: right;
+    color: grey;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 15px;
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+/*style formain content*/
+h2 {
+    background-color: #ffffff;
+    width: 960px;
+    height: 400px;
+    margin: auto; 
+    font-family: 'Times New Roman', Times, serif; 
+    }
+/*style for About me*/
+#About_me {
+    width: 160px;
+    height: 30px;
+    float: left;
+    padding: 20px 0 10px 10px;
+    color:  teal;
+    text-align: center; 
+    font-size: 30px; 
+     }
+/*style for line*/
+hr {
+    width: 920px;
+    color: lightgrey;
+  }
+p{
+    font-size: 15px;
+    color:#777777;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#duncan_image {
+    float: left; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }
