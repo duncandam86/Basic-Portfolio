@@ -3,7 +3,10 @@ h1{
     width: 1275px;
     height: 80px;
     margin-top: -10px;
-    border-bottom: solid lightgray;  
+    border-bottom: solid lightgray;
+    position: sticky;
+    position: -webkit- sticky;
+    top: 0;  
     }
 
 /*style for Duncan Dam*/

@@ -3,7 +3,10 @@ h1{
     width: 1275px;
     height: 80px;
     margin-top: -10px;
-    border-bottom: solid lightgray;  
+    border-bottom: solid lightgray;
+    position: sticky;
+    position: -webkit- sticky;
+    top: 0;  
     }
 
 /*style for Duncan Dam*/
@@ -77,25 +80,30 @@ hr {
 
 /*boxes*/
 .box {
-    position: relative;
+    position: absolute;
     width: 350px;
     height: 150px;
     border: 2px solid black;
 }
 .box-1{
+    position: static;
     top: 0%;
 }
 .box-2{
+    position: static;
     top: 0%;
 }
 .box-3{
+    position: static;
     top: 0%;
 }
 .box-4{
+    position: relative; 
     top: -82.2%;
-    left: 40%
+    left: 40%;
 }
 .box-5{
+    position: relative;
     top: -82.2%;
-    left: 40%
+    left: 40%;
 }
