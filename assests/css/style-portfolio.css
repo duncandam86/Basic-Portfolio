@@ -76,11 +76,10 @@ h2 {
 hr {
     width: 920px;
     color: lightgrey;
-  }
-
+}
 /*boxes*/
 .box {
-    position: absolute;
+    position: static;
     width: 350px;
     height: 150px;
     border: 2px solid black;
@@ -99,7 +98,7 @@ hr {
 }
 .box-4{
     position: relative; 
-    top: -82.2%;
+    top: 40%;
     left: 40%;
 }
 .box-5{
