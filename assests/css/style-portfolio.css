@@ -59,6 +59,7 @@ h2 {
     width: 960px;
     height: 650px;
     margin: auto; 
+    position: static;
     font-family: 'Times New Roman', Times, serif; 
     }
 /*style for Portfolio in body*/
@@ -79,10 +80,11 @@ hr {
 }
 /*boxes*/
 .box {
-    position: static;
+    position: relative;
     width: 350px;
     height: 150px;
     border: 2px solid black;
+    overflow: hidden;
 }
 .box-1{
     position: static;
@@ -93,16 +95,16 @@ hr {
     top: 0%;
 }
 .box-3{
-    position: static;
+    position: static
     top: 0%;
 }
 .box-4{
-    position: relative; 
-    top: 40%;
+    position: relative;
+    overflow: hidden;
+    top: -82.2%;
     left: 40%;
 }
 .box-5{
-    position: relative;
     top: -82.2%;
     left: 40%;
 }
