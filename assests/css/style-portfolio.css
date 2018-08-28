@@ -4,10 +4,7 @@ h1{
     height: 80px;
     margin-top: -10px;
     border-bottom: solid lightgray;
-    position: sticky;
-    position: -webkit- sticky;
-    top: 0;  
-    }
+}
 
 /*style for Duncan Dam*/
 .Duncan_Dam {
@@ -38,7 +35,7 @@ h1{
     padding: 30px 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    }
+}
 a {
     text-decoration: none;
     color: grey
@@ -80,7 +77,6 @@ hr {
 }
 /*boxes*/
 .box {
-    position: relative;
     width: 350px;
     height: 150px;
     border: 2px solid black;
@@ -95,16 +91,16 @@ hr {
     top: 0%;
 }
 .box-3{
-    position: static
+    position: static;
     top: 0%;
 }
 .box-4{
     position: relative;
-    overflow: hidden;
     top: -82.2%;
     left: 40%;
 }
 .box-5{
+    position: relative;
     top: -82.2%;
     left: 40%;
 }
