@@ -2,14 +2,21 @@
 .background{
     opacity: 0.1;
 }
-h1{
+body{
+    max-width: 100%;
+}
+header{
     background-color: #ffffff;
-    width: 100%;
+    max-width: 100%;
     height: 80px;
-    margin-top: -10px;
+    margin: -10px 0px 20px 0px;
     border-bottom: solid lightgray;
-    }
-
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 /*style for Duncan Dam*/
 .Duncan_Dam {
     background-color: teal;
@@ -21,7 +28,8 @@ h1{
     color: white;
     text-align: center; 
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;       
+    font-family: 'Times New Roman', Times, sans-serif;    
+    font-weight: bold;    
    }
 /*creating vertical lines*/
 .vl{
